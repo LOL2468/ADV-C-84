@@ -27,7 +27,7 @@ function alphabet(e)
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
 	
-		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90))
+		if((keyPressed >=97 && keyPressed<=122)|| (keyPressed >=65 && keyPressed<=90)){}
 		aplhabetkey();
 		document.getElementById("d1").innerHTML="You pressed Alphabet key";
 		console.log("alphabet key");
@@ -42,7 +42,7 @@ function number(e)
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
 	
-		if((keyPressed >=48 && keyPressed<=57)
+		if((keyPressed >=48 && keyPressed<=57){}
 		numberkey();
 		document.getElementById("d1").innerHTML="You pressed Number key";
 		console.log("number key");
@@ -57,7 +57,7 @@ function arrow(e)
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
 	
-		if((keyPressed >=37 && keyPressed<=40)
+		if((keyPressed >=37 && keyPressed<=40){}
 		arrowkey();
 		document.getElementById("d1").innerHTML="You pressed Arrow key";
 		console.log("arrow key");
@@ -72,7 +72,7 @@ function special(e)
 	keyPressed = e.keyCode;
 	console.log(keyPressed);
 	
-		if((keyPressed =17, 18 & 27)
+		if((keyPressed =17, 18 & 27){}
 		specialkey();
 		document.getElementById("d1").innerHTML="You pressed Special key";
 		console.log("special key");
